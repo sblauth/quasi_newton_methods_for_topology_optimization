@@ -139,7 +139,6 @@ def rename_files(algo: str, config) -> None:
             f"{result_dir}/history.json",
             f"{result_dir}/history_{algo}.json",
         ],
-        check=True,
     )
 
     subprocess.run(["rm", f"{result_dir}/history_{algo}.txt"])
@@ -149,5 +148,4 @@ def rename_files(algo: str, config) -> None:
             f"{result_dir}/history.txt",
             f"{result_dir}/history_{algo}.txt",
         ],
-        check=True,
     )

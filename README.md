@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/tba/zenodo.tba.svg)](https://doi.org/tba/zenodo.tba)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7773404.svg)](https://doi.org/10.5281/zenodo.7773404)
 
 
 
@@ -24,5 +24,5 @@ In each of the directories, there is a `main.py` file, which can be used to run 
 
 The file `visualization.py` generates the plots used in the paper. The repository is already initialized with the solutions obtained for the numerical examples in the paper, so that this can be run directly.
 
-This software is citeable under the following DOI: [10.5281/zenodo.tba](https://doi.org/10.5281/zenodo.tba).
+This software is citeable under the following DOI: [10.5281/zenodo.7773404](https://doi.org/10.5281/zenodo.7773404).
 
