@@ -3,7 +3,7 @@
 
 
 The repository contains the source code for the numerical experiments considered
-in [Quasi-Newton Methods for Topology Optimization Using a Level-Set Method](arxiv_tba) by Sebastian Blauth and Kevin Sturm.
+in [Quasi-Newton Methods for Topology Optimization Using a Level-Set Method](https://arxiv.org/abs/2303.15070) by Sebastian Blauth and Kevin Sturm.
 
 To run the code, you have to install [cashocs](https://cashocs.readthedocs.io/)
 first, which includes all necessary prerequisites. The results presented in this
@@ -20,7 +20,7 @@ The repository consists of the following test cases:
 - Design optimization with Navier-Stokes flow: The pipe bend (`navier_stokes/pipe_bend`) and rugby ball (`navier_stokes/rugby_ball`) problems which are considered in Section 4.4 of the paper.
 
 
-In each of the directories, there is a `main.py` file, which can be used to run the code. This file runs the entire benchmark, consisting of the so-called sphere combination, convex combination, gradient descent and BFGS methods, as presented in [Quasi-Newton Methods for Topology Optimization Using a Level-Set Method](arxiv_tba).
+In each of the directories, there is a `main.py` file, which can be used to run the code. This file runs the entire benchmark, consisting of the so-called sphere combination, convex combination, gradient descent and BFGS methods, as presented in [Quasi-Newton Methods for Topology Optimization Using a Level-Set Method](https://arxiv.org/abs/2303.15070).
 
 The file `visualization.py` generates the plots used in the paper. The repository is already initialized with the solutions obtained for the numerical examples in the paper, so that this can be run directly.
 
